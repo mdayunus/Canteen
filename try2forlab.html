@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>list</title>
+</head>
+<body>
+<table style="border: 1px solid black;">
+	<tr>
+		<td>egg</td>
+		<td>50</td>
+	</tr>
+	<tr>
+		<td>salad</td>
+		<td>100</td>
+	</tr>
+</table>
+<ul>
+	<li onclick="gg(id);" id="egg">egg</li>
+	<li onclick="gg(id);" id="salad">salad</li>
+	<li>noodles</li>
+	<li>fruits</li>
+
+</ul>
+<label id="x">printing here on click</label>
+<br>
+<label id="y">print here too</label>
+</body>
+<script type="text/javascript">
+	function gg(id)
+	{
+		var v = document.getElementById(id).innerHTML;
+		document.getElementById("x").innerHTML = v;
+	}
+	function gg(id)
+	{
+		var v = document.getElementById(id).innerHTML;
+		document.getElementById("y").innerHTML = v;
+	}
+
+
+</script>
+</html>
